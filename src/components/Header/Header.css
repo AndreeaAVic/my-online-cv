@@ -1,0 +1,14 @@
+.header,
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigation a {
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(78, 108, 141);
+    font-family: 'KoHo', sans-serif;
+    font-size: 20px;
+}

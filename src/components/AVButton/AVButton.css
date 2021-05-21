@@ -1,0 +1,19 @@
+.av-button {
+    position: absolute;
+    top: 316px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(78, 108, 141);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.av-button a {
+    text-decoration: none;
+    font-family: 'KoHo', sans-serif;
+    font-size: 25px;
+    color: #f8ee95;
+}

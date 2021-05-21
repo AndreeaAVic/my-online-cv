@@ -1,0 +1,13 @@
+.footer {
+    position: fixed;
+    bottom: 5px;
+    left: 100px;
+    right: 100px;
+    height: 50px;
+}
+
+p {
+    color: rgb(78, 108, 141);
+    font-family: 'KoHo', sans-serif;
+    font-size: 14px;
+}

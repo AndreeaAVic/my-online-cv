@@ -14,6 +14,7 @@
 .av-button a {
     text-decoration: none;
     font-family: 'KoHo', sans-serif;
+    font-weight: 700;
     font-size: 25px;
     color: #f8ee95;
 }

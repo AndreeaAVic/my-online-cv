@@ -2,4 +2,14 @@
     height: inherit;
     width: inherit;
     border-radius: 50%;
+    animation-name: patternAnimation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes patternAnimation {
+    100% {
+        transform: rotate(360deg);
+    }
 }

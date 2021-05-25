@@ -1,0 +1,80 @@
+.contact {
+    border-radius: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -300px;
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(120deg,#f6f6df 49%,#789ebdfa 55%,#7da0bd 51%);
+    display: flex;
+}
+
+.contactName {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    width: 300px;
+}
+
+.contactName h2 {
+    padding: 10px;
+    color: #990f05;
+}
+
+h2:first-child {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 700;
+}
+
+h2:last-child {
+    font-family: 'KoHo', sans-serif;
+    font-weight: 500;
+}
+
+.contactTitle {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contactTitle h3 {
+    padding-left: 10px;
+    font-family: 'KoHo', sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+    color: #3b4374;
+}
+
+.contactIcon img {
+    width: 40px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.right-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contactAddress,
+.contactPhone,
+.contactEmail {
+    display: flex;
+    margin-left: 30px;
+}
+
+.contactAddress img,
+.contactPhone img,
+.contactEmail img {
+    width: 25px;
+}
+
+.contactAddress p,
+.contactPhone p,
+.contactEmail p {
+    margin-left: 10px;
+    color: #990f05;
+    font-size: 17px;
+}

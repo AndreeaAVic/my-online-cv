@@ -1,0 +1,11 @@
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+#linkedin-icon,
+#github-icon,
+#facebook-icon {
+    height: 30px;
+    padding: 5px;
+}

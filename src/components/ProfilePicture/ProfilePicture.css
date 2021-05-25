@@ -1,0 +1,9 @@
+.profilePic {
+    position: fixed;
+    left: 350px;
+}
+
+#profile-picture {
+    width: 150px;
+    border-radius: 50%;
+}

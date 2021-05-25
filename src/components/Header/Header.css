@@ -5,10 +5,15 @@
     justify-content: center;
 }
 
+.header {
+    margin: 0 100px;
+}
+
 .navigation a {
     margin: 30px;
     text-decoration: none;
     color: rgb(78, 108, 141);
     font-family: 'KoHo', sans-serif;
+    font-weight: 700;
     font-size: 20px;
 }

@@ -1,4 +1,5 @@
 import Flip from "react-reveal/Flip";
+import Fade from "react-reveal/Fade";
 
 import htmlIcon from "./html5.svg";
 import cssIcon from "./css3.svg";
@@ -12,6 +13,9 @@ import "./Skills.css";
 export function Skills() {
     return (
         <div className="skills">
+            <Fade left cascade>
+                <div className="skills-nav-bar"></div>
+            </Fade>
             <Flip top cascade>
                 <div className="skillsText">
                     <p>From</p>

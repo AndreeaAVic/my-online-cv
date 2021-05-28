@@ -10,6 +10,9 @@ import { ProfilePicture } from "../../components/ProfilePicture/ProfilePicture";
 export function About() {
     return (
         <div className="about">
+            <Fade left cascade>
+                <div className="about-nav-bar"></div>
+            </Fade>
             <ProfilePicture />
             <div className="description">
                 <Fade right cascade>

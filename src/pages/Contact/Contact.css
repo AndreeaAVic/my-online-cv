@@ -1,4 +1,9 @@
 .contact {
+    height: 600px;
+    margin: 0 100px;
+}
+
+.contact-details {
     border-radius: 25px;
     position: fixed;
     top: 50%;
@@ -47,7 +52,7 @@ h2:last-child {
 }
 
 .contactIcon img {
-    width: 40px;
+    width: 50px;
     display: flex;
     margin-left: 100px;
 }
@@ -77,4 +82,13 @@ h2:last-child {
     margin-left: 10px;
     color: #990f05;
     font-size: 17px;
+}
+
+.contact-nav-bar {
+    height: 5px;
+    width: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 60px;
+    left: 950px;
 }

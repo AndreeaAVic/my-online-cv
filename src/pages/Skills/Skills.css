@@ -44,3 +44,12 @@
     font-size: 18px;
     text-decoration: underline;
 }
+
+.skills-nav-bar {
+    height: 5px;
+    width: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 60px;
+    left: 700px;
+}

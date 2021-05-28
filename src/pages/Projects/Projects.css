@@ -1,9 +1,9 @@
 .projects {
-    border: 2px solid;
     height: 600px;
     margin: 0 100px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -14,4 +14,17 @@
     position: absolute;
     top: 60px;
     left: 825px;
+}
+
+.cv-project,
+.game-project {
+    height: 280px;
+    width: 550px;
+}
+
+.cv-project img,
+.game-project img {
+    height: 280px;
+    width: 570px;
+    border-radius: 10px;
 }

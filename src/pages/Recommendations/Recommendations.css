@@ -1,0 +1,35 @@
+.recommendations {
+    height: 600px;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.recommendations-nav-bar {
+    height: 5px;
+    width: 100px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 60px;
+    left: 885px;
+}
+
+.intro-recommendation,
+.front-end-recommendation {
+    height: 500px;
+    width: 360px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+}
+
+.intro-recommendation p:nth-child(2),
+.front-end-recommendation p:nth-child(2) {
+    display: inline;
+}
+
+.intro-recommendation a,
+.front-end-recommendation a {
+    text-decoration: none;
+}

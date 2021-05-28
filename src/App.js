@@ -3,6 +3,7 @@ import { Home } from './pages/Home/Home';
 import { About } from './pages/About/About';
 import { Skills } from './pages/Skills/Skills';
 import { Projects } from './pages/Projects/Projects';
+import { Recommendations } from './pages/Recommendations/Recommendations';
 import { Contact } from './pages/Contact/Contact';
 import { AVButton } from './components/AVButton/AVButton';
 import { SocialMediaContainer } from './components/SocialMediaContainer/SocialMediaContainer';
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+          </Route>
+          <Route path="/recommendations">
+            <Recommendations />
           </Route>
           <Route path="/contact">
             <Contact />

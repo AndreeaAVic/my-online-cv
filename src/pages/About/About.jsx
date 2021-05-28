@@ -1,3 +1,5 @@
+import Fade from "react-reveal/Fade";
+
 import programmingIcon from "./programming.png";
 import targetIcon from "./target.png";
 import goalsIcon from "./ladder.png";
@@ -10,29 +12,49 @@ export function About() {
         <div className="about">
             <ProfilePicture />
             <div className="description">
-                <p>Hello!</p> 
-                <p>My name is Andreea, I'm newly initiated to front-end web development concepts</p> 
-                <p>and I'm eager for an every day use of them for I have crossed the line from curiosity to passion.</p>
-                <p>So,</p>
-                <p>curiosity led me here,</p>
-                <p>knowledge I have achieved,</p>
-                <p>passion I have embraced!</p>
+                <Fade right cascade>
+                    <p>Hello!</p> 
+                    <p>My name is Andreea, I'm newly initiated to front-end web development concepts</p> 
+                    <p>and I'm eager for an every day use of them for I have crossed the line from curiosity to passion.</p>
+                    <p>So,</p>
+                    <p>curiosity led me here,</p>
+                    <p>knowledge I have achieved,</p>
+                    <p>passion I have embraced!</p>
+                </Fade>
                 <span>
-                    <img src={programmingIcon} alt="programming" id="programmingIcon" />
-                    <p>Coding?</p>
+                    <Fade left>
+                        <img src={programmingIcon} alt="programming" id="programmingIcon" />
+                    </Fade>
+                    <Fade right cascade>
+                        <p>Coding?</p>
+                    </Fade>
                 </span>
-                <p>Future lifestyle!</p>
+                <Fade right cascade>
+                    <p>Future lifestyle!</p>
+                </Fade>
                 <span>
-                    <img src={goalsIcon} alt="goals" id="goalsIcon" />
-                    <p>Goals?</p>
+                    <Fade left>
+                        <img src={goalsIcon} alt="goals" id="goalsIcon" />
+                    </Fade>
+                    <Fade right cascade>
+                        <p>Goals?</p>
+                    </Fade>
                 </span>
-                <p>Deepening the concepts, as well as learning new ones.</p>
+                <Fade right cascade>
+                    <p>Deepening the concepts, as well as learning new ones.</p>
+                </Fade>
                 <span>
-                    <img src={targetIcon} alt="target" id="targetIcon" />
-                    <p>Target?</p>
+                    <Fade left>
+                        <img src={targetIcon} alt="target" id="targetIcon" />
+                    </Fade>
+                    <Fade right cascade>
+                        <p>Target?</p>
+                    </Fade>
                 </span>
-                <p>Becoming a full-time front-end web developer.</p>
-                <p>Also, friendly person, a little bit shy, nevertheless I hardly say no to challenges, to good/recommended/gift books or to playing board games.</p>
+                <Fade right cascade>
+                    <p>Becoming a full-time front-end web developer.</p>
+                    <p>Also, friendly person, a little bit shy, nevertheless I hardly say no to challenges, to good/recommended/gift books or to playing board games.</p>
+                </Fade>
             </div>
         </div>
         // <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

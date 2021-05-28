@@ -4,9 +4,9 @@ import { About } from './pages/About/About';
 import { Skills } from './pages/Skills/Skills';
 import { Projects } from './pages/Projects/Projects';
 import { Contact } from './pages/Contact/Contact';
-import { MenuButton } from './components/MenuButton/MenuButton';
-import { Footer } from './components/Footer/Footer';
 import { AVButton } from './components/AVButton/AVButton';
+import { SocialMediaContainer } from './components/SocialMediaContainer/SocialMediaContainer';
+import { Footer } from './components/Footer/Footer';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -34,8 +34,8 @@ function App() {
             <Home />
           </Route>
         </Switch>
-        <MenuButton />
         <AVButton />
+        <SocialMediaContainer />
         <Footer />
       </div>
     </Router>

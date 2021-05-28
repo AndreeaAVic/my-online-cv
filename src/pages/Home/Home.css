@@ -1,5 +1,20 @@
 .home {
     height: 600px;
-    width: auto;
     margin: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-title {
+    position: absolute;
+    top: 316px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.job-title p {
+    font-size: 35px;
 }

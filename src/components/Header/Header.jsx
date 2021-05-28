@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { SocialMedia } from "../SocialMedia/SocialMedia";
 
 import "./Header.css";
 
@@ -13,7 +12,6 @@ export function Header() {
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </div>
-            <SocialMedia />
         </div>
     );
 }

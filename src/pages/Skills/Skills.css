@@ -1,0 +1,46 @@
+.skills {
+    margin: 0 100px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsText {
+    display: flex;
+    align-items: center;
+}
+
+.skillsText img {
+    height: 160px;
+    margin: 0 30px;
+    border-radius: 25px;
+    transition: height 1s;
+}
+
+.skillsText img:hover {
+    height: 180px;
+}
+
+.skillsText p {
+    font-size: 20px;
+}
+
+.skillsIcons {
+    margin-top: 65px;
+}
+
+.skillsIcons img {
+    width: 80px;
+    padding: 10px;
+}
+
+.skillsIcons #js {
+    border-radius: 15px;
+}
+
+.skillsIcons p {
+    font-size: 18px;
+    text-decoration: underline;
+}

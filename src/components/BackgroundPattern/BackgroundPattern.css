@@ -1,6 +1,5 @@
 #patternImg {
-    height: inherit;
-    width: inherit;
+    height: 600px;
     border-radius: 50%;
     animation-name: patternAnimation;
     animation-duration: 30s;

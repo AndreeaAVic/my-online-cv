@@ -9,21 +9,27 @@
     left: 50%;
     margin-top: -150px;
     margin-left: -300px;
-    width: 600px;
-    height: 300px;
+    width: 40%;
+    height: 39%;
     background: linear-gradient(120deg,#f6f6df 49%,#789ebdfa 55%,#7da0bd 51%);
     display: flex;
 }
 
+.left-details {
+    width: 55%;
+}
+
+.right-details {
+    width: 45%;
+}
+
 .contactName {
     display: flex;
-    margin-right: auto;
     align-items: center;
-    width: 300px;
 }
 
 .contactName h2 {
-    padding: 10px;
+    padding: 3%;
     color: #990f05;
 }
 
@@ -39,11 +45,11 @@ h2:last-child {
 
 .contactTitle {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 4%;
 }
 
 .contactTitle h3 {
-    padding-left: 10px;
+    padding-left: 3%;
     font-family: 'KoHo', sans-serif;
     font-weight: 700;
     font-style: oblique;
@@ -51,9 +57,9 @@ h2:last-child {
 }
 
 .contactIcon img {
-    width: 50px;
+    width: 17%;
     display: flex;
-    margin-left: 100px;
+    margin-left: 27%;
 }
 
 .right-details {
@@ -66,19 +72,18 @@ h2:last-child {
 .contactPhone,
 .contactEmail {
     display: flex;
-    margin-left: 30px;
 }
 
 .contactAddress img,
 .contactPhone img,
 .contactEmail img {
-    width: 25px;
+    width: 10%;
 }
 
 .contactAddress p,
 .contactPhone p,
 .contactEmail p {
-    margin-left: 10px;
+    margin-left: 3%;
     color: #990f05;
     font-size: 17px;
 }
@@ -92,11 +97,30 @@ h2:last-child {
     left: 70%;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+    .contact {
+        height: 90%;
+    }
+
     .contact-nav-bar {
-        height: 4px;
-        width: 76px;
-        top: 208px;
-        left: 151px;
+        height: 0.5%;
+        width: 10%;
+        top: 28%;
+        left: 45%;
+    }
+
+    .contact-details {
+        top: 52%;
+        left: 50%;
+        margin-top: -80px;
+        margin-left: -290px;
+        width: 95%;
+        height: 43%;
+    }
+
+    .contactAddress p,
+    .contactPhone p,
+    .contactEmail p {
+        font-size: 15px;
     }
 }

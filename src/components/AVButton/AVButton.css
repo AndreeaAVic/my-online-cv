@@ -19,11 +19,11 @@
     color: #f8ee95;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .av-button {
         width: 35%;
         height: 12%;
-        top: 100px;
+        top: 15%;
     }
 
     .av-button a {

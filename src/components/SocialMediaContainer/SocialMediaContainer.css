@@ -11,10 +11,10 @@
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .social-media-container {
         width: 35%;
         height: 12%;
-        top: 100px;
+        top: 15%;
     }
 }

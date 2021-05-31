@@ -38,11 +38,20 @@
     left: 31%;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .about-nav-bar {
-        height: 4px;
-        width: 72px;
-        top: 66px;
-        left: 153px;
+        height: 0.5%;
+        width: 10%;
+        top: 9%;
+        left: 45%;
+    }
+
+    .description {
+        height: 71%;
+        margin: 1%;
+    }
+
+    .description p {
+        font-size: 11px;
     }
 }

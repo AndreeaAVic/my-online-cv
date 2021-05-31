@@ -13,27 +13,37 @@
     background-color: darkgoldenrod;
     position: absolute;
     top: 8%;
-    left: 47%;
+    left: 46.5%;
 }
 
 .cv-project,
 .game-project {
-    height: 280px;
-    width: 570px;
+    height: 43%;
+    width: 35%;
 }
 
 .cv-project img,
 .game-project img {
-    height: 280px;
-    width: 570px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
+    .projects {
+        margin-bottom: 5%;
+    }
+
     .projects-nav-bar {
-        height: 4px;
-        width: 76px;
-        top: 138px;
-        left: 153px;
+        height: 0.5%;
+        width: 10%;
+        top: 19%;
+        left: 45%;
+    }
+
+    .cv-project,
+    .game-project {
+        height: 49%;
+        width: 72%;
     }
 }

@@ -1,9 +1,16 @@
 .profilePic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: fixed;
-    left: 350px;
+    height: 15%;
+    width: 15%;
+    top: 43%;
+    left: 22%;
 }
 
 #profile-picture {
-    width: 150px;
+    width: 81%;
     border-radius: 50%;
 }

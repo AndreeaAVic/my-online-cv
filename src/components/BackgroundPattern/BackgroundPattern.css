@@ -1,5 +1,6 @@
 #patternImg {
-    height: 600px;
+    height: 80%;
+    margin: 0;
     border-radius: 50%;
     animation-name: patternAnimation;
     animation-duration: 30s;
@@ -10,5 +11,11 @@
 @keyframes patternAnimation {
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #patternImg {
+        height: 50%;
     }
 }

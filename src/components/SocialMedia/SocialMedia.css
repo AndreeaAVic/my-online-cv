@@ -1,11 +1,22 @@
 .social-media {
     display: flex;
+    justify-content: center;
     align-items: center;
+    height: 90%;
+    width: 90%;
 }
 
 #linkedin-icon,
 #github-icon,
 #facebook-icon {
-    height: 30px;
+    height: 35px;
     padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    #linkedin-icon,
+    #github-icon,
+    #facebook-icon {
+        height: 20px;
+    }
 }

@@ -6,14 +6,27 @@
 }
 
 .header {
-    margin: 0 100px;
+    margin: 0;
 }
 
 .navigation a {
-    margin: 30px;
+    margin: 7%;
     text-decoration: none;
     color: rgb(78, 108, 141);
     font-family: 'KoHo', sans-serif;
     font-weight: 700;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header,
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation a {
+        font-size: 12px;
+        margin: 8%;
+    }
 }

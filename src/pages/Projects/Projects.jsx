@@ -1,7 +1,7 @@
 import Fade from "react-reveal/Fade";
 import Rotate from "react-reveal/Rotate";
 
-import cvProjectIcon from "./cvProjectPic_50.png";
+import cvProjectIcon from "./projectPic1.png";
 import gameProjectIcon from "./rockPaperScissors.png";
 
 import "./Projects.css";

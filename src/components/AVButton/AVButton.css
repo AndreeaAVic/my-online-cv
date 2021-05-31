@@ -1,8 +1,9 @@
 .av-button {
     position: absolute;
-    width: 200px;
-    height: 100px;
-    top: 316px;
+    width: 15%;
+    height: 15%;
+    top: 43%;
+    left: 0;
     background-color: rgb(78, 108, 141);
     display: flex;
     flex-direction: row;
@@ -16,4 +17,16 @@
     font-weight: 700;
     font-size: 25px;
     color: #f8ee95;
+}
+
+@media screen and (max-width: 600px) {
+    .av-button {
+        width: 35%;
+        height: 12%;
+        top: 100px;
+    }
+
+    .av-button a {
+        font-size: 17px;
+    }
 }

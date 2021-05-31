@@ -3,8 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 600px;
-    margin: 0 100px;
+    height: 90%;
 }
 
 .about span {
@@ -16,6 +15,11 @@
 
 .description {
     position: fixed;
+    height: 85%;
+}
+
+.description p {
+    font-size: 15px;
 }
 
 #programmingIcon,
@@ -26,10 +30,19 @@
 }
 
 .about-nav-bar {
-    height: 5px;
-    width: 100px;
+    height: 0.5%;
+    width: 6%;
     background-color: darkgoldenrod;
     position: absolute;
-    top: 60px;
-    left: 475px;
+    top: 8%;
+    left: 31%;
+}
+
+@media screen and (max-width: 600px) {
+    .about-nav-bar {
+        height: 4px;
+        width: 72px;
+        top: 66px;
+        left: 153px;
+    }
 }

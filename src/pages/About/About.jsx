@@ -3,9 +3,9 @@ import Fade from "react-reveal/Fade";
 import programmingIcon from "./programming.png";
 import targetIcon from "./target.png";
 import goalsIcon from "./ladder.png";
+import { ProfilePicture } from "../../components/ProfilePicture/ProfilePicture";
 
 import "./About.css";
-import { ProfilePicture } from "../../components/ProfilePicture/ProfilePicture";
 
 export function About() {
     return (

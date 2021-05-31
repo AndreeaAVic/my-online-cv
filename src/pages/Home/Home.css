@@ -1,6 +1,5 @@
 .home {
-    height: 600px;
-    margin: 0 100px;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,11 +7,11 @@
 
 .job-title {
     position: absolute;
-    top: 316px;
+    top: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 20%;
 }
 
 .job-title p {
@@ -20,10 +19,28 @@
 }
 
 .home-nav-bar {
-    height: 5px;
-    width: 100px;
+    height: 0.5%;
+    width: 6%;
     background-color: darkgoldenrod;
     position: absolute;
-    top: 60px;
-    left: 360px;
+    top: 8%;
+    left: 23%;
+}
+
+@media screen and (max-width: 600px) {
+    .job-title {
+        top: 68%;
+        height: 10%;
+    }
+
+    .job-title p {
+        font-size: 20px;
+    }
+
+    .home-nav-bar {
+        height: 4px;
+        width: 65px;
+        top: 30px;
+        left: 153px;
+    }
 }

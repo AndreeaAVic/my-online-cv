@@ -1,6 +1,5 @@
 .contact {
-    height: 600px;
-    margin: 0 100px;
+    height: 90%;
 }
 
 .contact-details {
@@ -85,10 +84,19 @@ h2:last-child {
 }
 
 .contact-nav-bar {
-    height: 5px;
-    width: 100px;
+    height: 0.5%;
+    width: 6%;
     background-color: darkgoldenrod;
     position: absolute;
-    top: 60px;
-    left: 1065px;
+    top: 8%;
+    left: 70%;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-nav-bar {
+        height: 4px;
+        width: 76px;
+        top: 208px;
+        left: 151px;
+    }
 }

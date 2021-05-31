@@ -1,6 +1,8 @@
 .recommendations {
-    height: 600px;
-    margin: 0 100px;
+    height: 90%;
+    margin-bottom: 3%;
+    margin-right: 7%;
+    margin-left: 7%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -8,20 +10,23 @@
 }
 
 .recommendations-nav-bar {
-    height: 5px;
-    width: 100px;
+    height: 0.5%;
+    width: 6%;
     background-color: darkgoldenrod;
     position: absolute;
-    top: 60px;
-    left: 885px;
+    top: 8%;
+    left: 58%;
 }
 
 .intro-recommendation,
 .front-end-recommendation {
-    height: 500px;
-    width: 360px;
+    height: 80%;
+    width: 28%;
     border: 2px solid darkgoldenrod;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
 }
 
 .intro-recommendation p:nth-child(2),
@@ -32,4 +37,13 @@
 .intro-recommendation a,
 .front-end-recommendation a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .recommendations-nav-bar {
+        height: 4px;
+        width: 76px;
+        top: 174px;
+        left: 151px;
+    }
 }

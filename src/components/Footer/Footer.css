@@ -13,13 +13,14 @@ p {
     font-size: 14px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 376px) {
     .footer {
         bottom: 1%;
-        left: 35%;
-        right: 35%;
+        left: 30%;
+        right: 30%;
+        height: 3%;
     }
     .footer p {
-        font-size: 12px;
+        font-size: 10px;
     }
 }

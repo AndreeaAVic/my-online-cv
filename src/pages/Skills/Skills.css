@@ -53,13 +53,7 @@
     left: 38.5%;
 }
 
-@media only screen and (max-width: 600px) {
-    .skills {
-        height: 70%;
-        flex-wrap: wrap;
-        align-items: flex-start;
-    }
-
+@media only screen and (max-width: 376px) {
     .skills-nav-bar {
         height: 0.5%;
         width: 10%;
@@ -69,12 +63,14 @@
 
     .skillsText {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .skillsText p,
     .skillsIcons p {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .skillsText img {
@@ -84,9 +80,10 @@
     .skillsIcons {
         margin-top: 0;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        width: 254px;
+        width: 84%;
     }
 
     .skillsIcons img {

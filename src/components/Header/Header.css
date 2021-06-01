@@ -18,7 +18,7 @@
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 376px) {
     .header,
     .navigation {
         flex-direction: column;

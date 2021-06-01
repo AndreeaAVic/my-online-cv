@@ -29,9 +29,9 @@
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 376px) {
     .projects {
-        margin-bottom: 5%;
+        margin-bottom: 7%;
     }
 
     .projects-nav-bar {
@@ -43,7 +43,7 @@
 
     .cv-project,
     .game-project {
-        height: 49%;
-        width: 72%;
+        height: 42%;
+        width: 95%;
     }
 }

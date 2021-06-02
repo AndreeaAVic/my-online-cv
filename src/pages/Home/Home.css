@@ -27,24 +27,50 @@
     left: 23%;
 }
 
-@media only screen and (max-width: 376px) {
-    .home-nav-bar {
-        height: 0.5%;
-        width: 10%;
-        top: 4%;
-        left: 45%;
-    }
+@media only screen 
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+        .home-nav-bar {
+            height: 0.5%;
+            width: 10%;
+            top: 4%;
+            left: 45%;
+        }
 
-    .job-title {
-        top: 57%;
-        height: 8%;
-    }
+        .job-title {
+            top: 57%;
+            height: 8%;
+        }
 
-    .job-title p {
-        font-size: 18px;
-    }
+        .job-title p {
+            font-size: 18px;
+        }
 
-    .home {
-        overflow: hidden;
-    }
+        .home {
+            overflow: hidden;
+        }
+}
+
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+        .home-nav-bar {
+            height: 0.5%;
+            width: 10%;
+            top: 3%;
+            left: 45%;
+        }
+
+        .job-title {
+            top: 52%;
+            height: 8%;
+        }
+
+        .job-title p {
+            font-size: 25px;
+        }
+
+        .home {
+            overflow: hidden;
+        }
 }

@@ -11,10 +11,22 @@
     align-items: center;
 }
 
-@media only screen and (max-width: 376px) {
-    .social-media-container {
-        width: 35%;
-        height: 12%;
-        top: 15%;
-    }
+@media only screen 
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+        .social-media-container {
+            width: 35%;
+            height: 12%;
+            top: 15%;
+        }
+}
+
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+        .social-media-container {
+            width: 26%;
+            height: 9%;
+            top: 9%;
+        }
 }

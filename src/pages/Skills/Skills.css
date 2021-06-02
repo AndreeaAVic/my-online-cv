@@ -53,40 +53,86 @@
     left: 38.5%;
 }
 
-@media only screen and (max-width: 376px) {
-    .skills-nav-bar {
-        height: 0.5%;
-        width: 10%;
-        top: 14%;
-        left: 45%;
-    }
+@media only screen 
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+        .skills-nav-bar {
+            height: 0.5%;
+            width: 10%;
+            top: 14%;
+            left: 45%;
+        }
 
-    .skillsText {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        .skillsText {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
-    .skillsText p,
-    .skillsIcons p {
-        font-size: 16px;
-    }
+        .skillsText p,
+        .skillsIcons p {
+            font-size: 16px;
+        }
 
-    .skillsText img {
-        height: 135px;
-    }
+        .skillsText img {
+            height: 135px;
+        }
 
-    .skillsIcons {
-        margin-top: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 84%;
-    }
+        .skillsIcons {
+            margin-top: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 84%;
+        }
 
-    .skillsIcons img {
-        width: 12%;
-    }
+        .skillsIcons img {
+            width: 12%;
+        }
+}
+
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+        .skills {
+            justify-content: flex-start;
+        }
+
+        .skills-nav-bar {
+            height: 0.5%;
+            width: 10%;
+            top: 9%;
+            left: 45%;
+        }
+
+        .skillsText {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 3%;
+        }
+
+        .skillsText p,
+        .skillsIcons p {
+            font-size: 25px;
+        }
+
+        .skillsText img {
+            height: 150px;
+        }
+
+        .skillsIcons {
+            margin-top: 8%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 84%;
+        }
+
+        .skillsIcons img {
+            width: 12%;
+        }
 }

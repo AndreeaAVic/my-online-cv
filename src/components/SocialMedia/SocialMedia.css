@@ -13,10 +13,22 @@
     padding: 5px;
 }
 
-@media only screen and (max-width: 376px) {
-    #linkedin-icon,
-    #github-icon,
-    #facebook-icon {
-        height: 25px;
-    }
+@media only screen 
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+        #linkedin-icon,
+        #github-icon,
+        #facebook-icon {
+            height: 25px;
+        }
+}
+
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+        #linkedin-icon,
+        #github-icon,
+        #facebook-icon {
+            height: 30px;
+        }
 }

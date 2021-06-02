@@ -15,15 +15,32 @@
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 376px) {
-    .profilePic {
-        height: 11%;
-        width: 20%;
-        top: 52%;
-        left: 8%;
-    }
+@media only screen 
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+        .profilePic {
+            height: 11%;
+            width: 20%;
+            top: 52%;
+            left: 8%;
+        }
 
-    #profile-picture {
-        width: 100%;
-    }
+        #profile-picture {
+            width: 100%;
+        }
+}
+
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+        .profilePic {
+            height: 15%;
+            width: 20%;
+            top: 43%;
+            left: 14%;
+        }
+
+        #profile-picture {
+            width: 100%;
+        }
 }

@@ -19,14 +19,30 @@
     color: #f8ee95;
 }
 
-@media only screen and (max-width: 376px) {
-    .av-button {
-        width: 35%;
-        height: 12%;
-        top: 15%;
-    }
+@media only screen 
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+        .av-button {
+            width: 35%;
+            height: 12%;
+            top: 15%;
+        }
 
-    .av-button a {
-        font-size: 17px;
-    }
+        .av-button a {
+            font-size: 17px;
+        }
+}
+
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+        .av-button {
+            width: 26%;
+            height: 9%;
+            top: 9%;
+        }
+
+        .av-button a {
+            font-size: 19px;
+        }
 }

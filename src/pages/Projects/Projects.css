@@ -29,21 +29,44 @@
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 376px) {
-    .projects {
-        margin-bottom: 7%;
-    }
+@media only screen 
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+        .projects {
+            margin-bottom: 7%;
+        }
 
-    .projects-nav-bar {
-        height: 0.5%;
-        width: 10%;
-        top: 19%;
-        left: 45%;
-    }
+        .projects-nav-bar {
+            height: 0.5%;
+            width: 10%;
+            top: 19%;
+            left: 45%;
+        }
 
-    .cv-project,
-    .game-project {
-        height: 42%;
-        width: 95%;
-    }
+        .cv-project,
+        .game-project {
+            height: 42%;
+            width: 95%;
+        }
+}
+
+@media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+        .projects {
+            margin-bottom: 3%;
+        }
+
+        .projects-nav-bar {
+            height: 0.5%;
+            width: 10%;
+            top: 12%;
+            left: 45%;
+        }
+
+        .cv-project,
+        .game-project {
+            height: 42%;
+            width: 88%;
+        }
 }

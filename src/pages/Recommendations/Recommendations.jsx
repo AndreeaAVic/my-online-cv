@@ -34,7 +34,21 @@ export function Recommendations() {
             </Fade>
             <Fade right>
                 <div className="front-end-recommendation">
-                    <p><i>aaaaaaa</i></p>
+                    <p>
+                        <i>
+                            Andreea pleasantly surprised me with smart and educational questions, both for herself and for her colleagues from the group.
+                        </i>
+                    </p>
+                    <p>
+                        <i>
+                            The way she approached the homeworks, as well as the code written by her, reflects seriousness and dedication. 
+                        </i>
+                    </p>
+                    <p>
+                        <i>
+                            I was delighted to have her as a student in the Front-End Web Development course. 
+                        </i>
+                    </p>
                     <p>Stefan Radusi - Mentor</p> 
                     <a href="https://scoalainformala.ro/our_team/stefan-radusi/">@The Informal School of IT</a>
                     <p>& Web User Interface Developer</p>

@@ -28,7 +28,7 @@ export function Recommendations() {
                         </i>
                     </p>
                     <p>Adrian Moldovan - Mentor</p> 
-                    <a href="https://scoalainformala.ro/our_team/adrian-moldovan/">@The Informal School of IT</a>
+                    <a href="https://scoalainformala.ro/our_team/adrian-moldovan/" target="_blank" rel="noopener noreferrer">@The Informal School of IT</a>
                     <p>& Co-Owner and Co-Founder @Codern Venture</p>
                 </div>
             </Fade>
@@ -50,7 +50,7 @@ export function Recommendations() {
                         </i>
                     </p>
                     <p>Stefan Radusi - Mentor</p> 
-                    <a href="https://scoalainformala.ro/our_team/stefan-radusi/">@The Informal School of IT</a>
+                    <a href="https://scoalainformala.ro/our_team/stefan-radusi/" target="_blank" rel="noopener noreferrer">@The Informal School of IT</a>
                     <p>& Web User Interface Developer</p>
                 </div>
             </Fade>
